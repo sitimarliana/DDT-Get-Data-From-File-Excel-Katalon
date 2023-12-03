@@ -2,7 +2,7 @@
 
 <b>Have component</b>
 - Website : https://www.saucedemo.com/
-- Tabel data :
+- Data table :
   
 | Username                | Password      |
 |-------------------------|---------------|
