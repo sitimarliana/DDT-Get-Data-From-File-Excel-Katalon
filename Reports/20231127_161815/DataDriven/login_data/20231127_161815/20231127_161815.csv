@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login_data,Chrome 119.0.0.0,,,2023-11-27 16:18:19,2023-11-27 16:18:37,17.910s,PASSED
+,,,,,,,
+Test Cases/Login/login,Chrome 119.0.0.0,,,2023-11-27 16:18:20,2023-11-27 16:18:30,10.209s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 16:18:21,2023-11-27 16:18:23,2.489s,PASSED
+"navigateToUrl(""https://admin.staging.hanoman.id/administrator/login/"")",Chrome 119.0.0.0,,,2023-11-27 16:18:23,2023-11-27 16:18:24,1.287s,PASSED
+"setText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username""), ""siti123"")",Chrome 119.0.0.0,,,2023-11-27 16:18:24,2023-11-27 16:18:25,0.832s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password""), ""aeHFOx8jV/A="")",Chrome 119.0.0.0,,,2023-11-27 16:18:25,2023-11-27 16:18:26,0.586s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/button_Sign in""))",Chrome 119.0.0.0,,,2023-11-27 16:18:26,2023-11-27 16:18:27,1.419s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana""))",Chrome 119.0.0.0,,,2023-11-27 16:18:27,2023-11-27 16:18:29,1.979s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit""))",Chrome 119.0.0.0,,,2023-11-27 16:18:29,2023-11-27 16:18:30,1.038s,PASSED
+,,,,,,,
+Test Cases/Login/login,Chrome 119.0.0.0,,,2023-11-27 16:18:30,2023-11-27 16:18:37,7.066s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 16:18:30,2023-11-27 16:18:31,1.081s,PASSED
+"navigateToUrl(""https://admin.staging.hanoman.id/administrator/login/"")",Chrome 119.0.0.0,,,2023-11-27 16:18:31,2023-11-27 16:18:33,1.366s,PASSED
+"setText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username""), ""siti123"")",Chrome 119.0.0.0,,,2023-11-27 16:18:33,2023-11-27 16:18:34,0.781s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password""), ""aeHFOx8jV/A="")",Chrome 119.0.0.0,,,2023-11-27 16:18:34,2023-11-27 16:18:34,0.440s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/button_Sign in""))",Chrome 119.0.0.0,,,2023-11-27 16:18:34,2023-11-27 16:18:36,2.013s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana""))",Chrome 119.0.0.0,,,2023-11-27 16:18:36,2023-11-27 16:18:37,0.509s,PASSED
+"click(findTestObject(""Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit""))",Chrome 119.0.0.0,,,2023-11-27 16:18:37,2023-11-27 16:18:37,0.850s,PASSED

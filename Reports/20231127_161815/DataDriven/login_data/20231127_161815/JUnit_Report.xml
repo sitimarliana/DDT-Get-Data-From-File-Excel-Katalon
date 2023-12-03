@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_data" time="17.91" tests="2" failures="0" errors="0">
+   <testsuite name="login_data" tests="2" failures="0" errors="0" time="17.91" skipped="0" timestamp="2023-11-27 16:18:19" hostname="siti - siti-ThinkPad-T440p" id="Test Suites/DataDriven/login_data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/siti/Exercise Katalon/TDD - Get from Files/Reports/20231127_161815/DataDriven/login_data/20231127_161815"/>
+         <property name="logFiles" value="/home/siti/Exercise Katalon/TDD - Get from Files/Reports/20231127_161815/DataDriven/login_data/20231127_161815/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siti - siti-ThinkPad-T440p"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="01a02798a32b09a419f9869f2377a173"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Login/login" time="10.209" classname="Test Cases/Login/login" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:18:20 - [TEST_CASE][PASSED] - Test Cases/Login/login: Test Cases/Login/login
+
+2023-11-27 16:18:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 16:18:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 16:18:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 16:18:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 16:18:23 - [TEST_STEP][PASSED] - navigateToUrl("https://admin.staging.hanoman.id/administrator/login/"): Navigate to 'https://admin.staging.hanoman.id/administrator/login/' successfully
+
+2023-11-27 16:18:24 - [MESSAGE][PASSED] - Navigate to 'https://admin.staging.hanoman.id/administrator/login/' successfully
+
+2023-11-27 16:18:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username"), "siti123"): Text 'siti123' is set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username'
+
+2023-11-27 16:18:25 - [MESSAGE][PASSED] - Text 'siti123' is set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username'
+
+2023-11-27 16:18:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password'
+
+2023-11-27 16:18:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password'
+
+2023-11-27 16:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/button_Sign in")): Object: 'Object Repository/Login_OR/Page_Hanoman Login/button_Sign in' is clicked on
+
+2023-11-27 16:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Hanoman Login/button_Sign in' is clicked on
+
+2023-11-27 16:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana")): Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana' is clicked on
+
+2023-11-27 16:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana' is clicked on
+
+2023-11-27 16:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit")): Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit' is clicked on
+
+2023-11-27 16:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/login" time="7.066" classname="Test Cases/Login/login" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:18:30 - [TEST_CASE][PASSED] - Test Cases/Login/login: Test Cases/Login/login
+
+2023-11-27 16:18:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 16:18:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-27 16:18:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 16:18:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 16:18:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 16:18:31 - [TEST_STEP][PASSED] - navigateToUrl("https://admin.staging.hanoman.id/administrator/login/"): Navigate to 'https://admin.staging.hanoman.id/administrator/login/' successfully
+
+2023-11-27 16:18:33 - [MESSAGE][PASSED] - Navigate to 'https://admin.staging.hanoman.id/administrator/login/' successfully
+
+2023-11-27 16:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username"), "siti123"): Text 'siti123' is set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username'
+
+2023-11-27 16:18:34 - [MESSAGE][PASSED] - Text 'siti123' is set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username'
+
+2023-11-27 16:18:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password'
+
+2023-11-27 16:18:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password'
+
+2023-11-27 16:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Hanoman Login/button_Sign in")): Object: 'Object Repository/Login_OR/Page_Hanoman Login/button_Sign in' is clicked on
+
+2023-11-27 16:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Hanoman Login/button_Sign in' is clicked on
+
+2023-11-27 16:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana")): Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana' is clicked on
+
+2023-11-27 16:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/span_Sitimarliana' is clicked on
+
+2023-11-27 16:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit")): Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit' is clicked on
+
+2023-11-27 16:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Super Admin   User Profile/a_Exit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 16:18:19 - [TEST_SUITE][PASSED] - login_data: Test Cases/Login/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

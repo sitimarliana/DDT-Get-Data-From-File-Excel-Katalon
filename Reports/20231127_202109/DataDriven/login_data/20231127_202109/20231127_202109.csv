@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login_data,Chrome 119.0.0.0,,,2023-11-27 20:21:12,2023-11-27 20:21:21,9.074s,FAILED
+,,,,,,,
+Test Cases/Login/login,Chrome 119.0.0.0,,,2023-11-27 20:21:13,2023-11-27 20:21:18,5.517s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 20:21:13,2023-11-27 20:21:16,2.498s,PASSED
+"navigateToUrl(""https://admin.staging.hanoman.id/administrator/login/"")",Chrome 119.0.0.0,,,2023-11-27 20:21:16,2023-11-27 20:21:17,1.145s,PASSED
+"setText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username""), Username)",Chrome 119.0.0.0,,,2023-11-27 20:21:17,2023-11-27 20:21:18,1.030s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password""), Password)",Chrome 119.0.0.0,,,2023-11-27 20:21:18,2023-11-27 20:21:18,0.348s,FAILED
+,,,,,,,
+Test Cases/Login/login,Chrome 119.0.0.0,,,2023-11-27 20:21:18,2023-11-27 20:21:21,2.998s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 20:21:18,2023-11-27 20:21:20,1.105s,PASSED
+"navigateToUrl(""https://admin.staging.hanoman.id/administrator/login/"")",Chrome 119.0.0.0,,,2023-11-27 20:21:20,2023-11-27 20:21:20,0.737s,PASSED
+"setText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_username""), Username)",Chrome 119.0.0.0,,,2023-11-27 20:21:20,2023-11-27 20:21:21,0.857s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_OR/Page_Hanoman Login/input_Hanoman_password""), Password)",Chrome 119.0.0.0,,,2023-11-27 20:21:21,2023-11-27 20:21:21,0.258s,FAILED
